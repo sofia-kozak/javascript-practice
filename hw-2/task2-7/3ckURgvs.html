@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let time = +prompt('Введіть число від 0 до 59:');
+
+    if (time >= 0 && time <= 14) {
+        console.log('1-ша чверть');
+    } else if (time >= 15 && time <= 29) {
+        console.log('2-га чверть');
+    } else if (time >= 30 && time <= 44) {
+        console.log('3-nя чверть');
+    } else if (time >= 45 && time <= 59) {
+        console.log('4-та чверть ');
+    }
+</script>
+</body>
+</html>
