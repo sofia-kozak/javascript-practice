@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hdjws7E</title>
+</head>
+<body>
+<script>
+    let products = [
+        {
+            title: 'milk',
+            price: 22,
+            image: 'https://media.istockphoto.com/id/1222018207/photo/pouring-milk-into-a-drinking-glass.jpg?s=612x612&w=0&k=20&c=eD4YHoSjKIYSPDgnM2OgWD_HVH2IcmjZSRq7IjUnH6M='
+        },
+        {
+            title: 'juice',
+            price: 27,
+            image: 'https://images-na.ssl-images-amazon.com/images/I/61jL2GCuKLL._SX679_PIbundle-24,TopRight,0,0_AA679SH20_.jpg'
+        },
+        {
+            title: 'tomato',
+            price: 47,
+            image: 'https://dictionary.cambridge.org/ru/images/thumb/tomato_noun_001_17860.jpg?version=5.0.74'
+        },
+        {
+            title: 'tea',
+            price: 15,
+            image: 'https://www.shutterstock.com/image-photo/black-tea-cup-glass-dried-600nw-2567696105.jpg'
+        }
+    ];
+
+    for (let product of products) {
+        document.write(`
+        <div class="product-card">
+            <h3 class="product-title">${product.title}. Price – ${product.price}</h3>
+            <img src="${product.image}" alt="${product.title}" class="product-image">
+        </div>
+    `);
+    }
+</script>
+</body>
+</html>
