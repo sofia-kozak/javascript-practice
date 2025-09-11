@@ -4,7 +4,5 @@ const foobar = (text,counter) => {
         document.write(`<li>${text}</li>`);
     }
     document.write('</ul>');
-
 };
-
 foobar(`okten`,10);
