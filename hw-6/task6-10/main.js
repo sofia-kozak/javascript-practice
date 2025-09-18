@@ -1,5 +1,5 @@
-let suits = ['spade','diamond','heart','clubs'];
-let values =['6', '7', '8', '9', '10', 'jack', 'queen', 'king', 'ace'];
+const suits = ['spade','diamond','heart','clubs'];
+const values =['6', '7', '8', '9', '10', 'jack', 'queen', 'king', 'ace'];
 let deck =[];
 
 for (let suit of suits) {
