@@ -32,8 +32,6 @@ console.log(car);
 car.drive();
 car.info();
 car.increaseMaxSpeed(100)
-console.log(car);
 car.changeYear(2025);
-console.log(car);
 car.addDriver({ name: 'Ivan', age: 35, experience: '10 years' });
 console.log(car);
