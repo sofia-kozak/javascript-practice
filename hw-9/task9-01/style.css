@@ -1,0 +1,24 @@
+.wrap {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    color: darkblue;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collapse {
+    border: 2px solid navy;
+}
+
+.alpha {
+    border-radius: 8px;
+}
+
+.beta {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
