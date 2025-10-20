@@ -11,7 +11,6 @@ fetch('https://dummyjson.com/recipes')
 
             const img = document.createElement('img');
             img.src = recipe.image;
-            img.alt = recipe.name;
 
             const cuisine = document.createElement('p');
             cuisine.innerHTML = `<span class="label">Cuisine:</span> ${recipe.cuisine}`;
