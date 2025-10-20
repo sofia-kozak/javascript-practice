@@ -7,7 +7,7 @@ fetch('https://dummyjson.com/recipes')
             div.classList.add('recipe');
 
             const title = document.createElement('h2');
-            title.innerText = `#${recipe.id} $recipe.name`;
+            title.innerText = `#${recipe.id} ${recipe.name}`;
 
             const img = document.createElement('img');
             img.src = recipe.image;
